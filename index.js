@@ -39,25 +39,25 @@ function checkForRedirect(nextState, replace) {
 // GitHub Pages returns index.html. The single page react app is loaded,
 // this function is run, and the correct route is entered.
 function parseRedirectQuery(query, replace) {
-  let redirectTo = {}
+  const redirectTo = {};
 
   if (typeof query.pathname === 'string' && query.pathname !== '') {
     redirectTo.pathname = query.pathname;
   }
 
   if (typeof query.query === 'string' && query.query !== '') {
-    let queryObject = {};
+    const queryObject = {};
     query.query.split('&').map(q => q.split('=')).forEach(arr => {
       queryObject[arr[0]] = arr.slice(1).join('=');
-    })
+    });
     redirectTo.query = queryObject;
   }
 
   if (typeof query.hash === 'string' && query.hash !== '') {
-    redirectTo.hash = `#${query.hash}`
+    redirectTo.hash = `#${query.hash}`;
   }
 
-  replace(redirectTo)
+  replace(redirectTo);
 }
 ///////////////////////////////////////////////////////////////////////////////
 
