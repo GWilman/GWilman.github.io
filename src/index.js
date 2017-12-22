@@ -7,7 +7,6 @@ import Projects from './components/statics/Projects';
 import About from './components/statics/About';
 import Contact from './components/statics/Contact';
 
-
 class App extends React.Component {
 
   switchVisibleComponent = (e) => {

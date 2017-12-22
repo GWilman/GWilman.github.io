@@ -33,14 +33,23 @@ const Home = ({ switchVisibleComponent }) => {
   };
 
   const container = {
+    boxSizing: 'border-box',
     width: '700px',
     height: '100%',
     margin: '0 auto',
-    textAlign: 'center'
+    padding: '5% 0',
+    textAlign: 'center',
+    display: 'table'
+  };
+
+  const contentContainer = {
+    boxSizing: 'border-box',
+    height: '100%',
+    display: 'table-cell',
+    verticalAlign: 'middle'
   };
 
   const h1Style = {
-    marginTop: '10%',
     fontSize: '3.5em',
     fontFamily: 'Bungee Inline, cursive',
     color: '#FFF'
@@ -69,9 +78,11 @@ const Home = ({ switchVisibleComponent }) => {
         <button style={btnStyle} onClick={switchVisibleComponent} value="Contact">Contact</button>
       </div>
       <div style={container}>
-        <h1 style={h1Style}>George Wilman</h1>
-        <h2 style={h2Style}>Web Developer</h2>
-        <p style={pStyle}>Hi! I&apos;m George and I&apos;m a full-stack web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
+        <div style={contentContainer}>
+          <h1 style={h1Style}>George Wilman</h1>
+          <h2 style={h2Style}>Web Developer</h2>
+          <p style={pStyle}>Hi! I&apos;m George and I&apos;m a full-stack web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
+        </div>
       </div>
     </div>
   );
