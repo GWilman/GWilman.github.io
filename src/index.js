@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import scollToComponent from 'react-scroll-to-component';
 
-import Home from './components/statics/Home';
-import Projects from './components/statics/Projects';
-import About from './components/statics/About';
-import Contact from './components/statics/Contact';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
 
 class App extends React.Component {
 
