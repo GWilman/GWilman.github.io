@@ -1,5 +1,5 @@
 {
-  "name": "spa-github-pages",
+  "name": "George Wilman Portfolio",
   "version": "5.1.0",
   "private": true,
   "description": "Single Page Apps for GitHub Pages",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/GWilman/GWilman.github.io.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "George Wilman",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.0",
