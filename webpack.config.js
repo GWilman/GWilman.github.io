@@ -5,20 +5,20 @@ module.exports = {
   output: {
     path: `${__dirname}/build`,
     publicPath: '/build/',
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
 
   module: {
     rules: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
-    ],
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
+    ]
   },
 
   plugins: process.argv.indexOf('-p') === -1 ? [] : [
     new webpack.optimize.UglifyJsPlugin({
       output: {
-        comments: false,
-      },
-    }),
-  ],
+        comments: false
+      }
+    })
+  ]
 };
