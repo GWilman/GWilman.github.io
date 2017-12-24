@@ -33,11 +33,12 @@ const Contact = () => {
     color: '#FFF'
   };
 
-  const h2Style = {
+  const aStyle = {
     lineHeight: '1.5em',
     fontSize: '2em',
     fontFamily: 'Roboto, sans-serif',
-    color: '#FFF'
+    color: '#FFF',
+    textDecoration: 'none'
   };
 
   return (
@@ -45,10 +46,10 @@ const Contact = () => {
       <div style={container}>
         <div style={contentContainer}>
           <h1 style={h1Style}>Contact</h1>
-          <h2 style={h2Style}><i className="fa fa-envelope-o" aria-hidden="true"></i> georgewilman1@gmail.com</h2>
-          <h2 style={h2Style}><i className="fa fa-github" aria-hidden="true"></i> https://github.com/GWilman</h2>
-          <h2 style={h2Style}><i className="fa fa-twitter" aria-hidden="true"></i> https://twitter.com/GWilman</h2>
-          <h2 style={h2Style}><i className="fa fa-linkedin-square" aria-hidden="true"></i> https://linkedin.com/in/GWilman</h2>
+          <h2><a style={aStyle} href="mailto:georgewilman1@gmail.com"><i className="fa fa-envelope-o" aria-hidden="true"></i> georgewilman1@gmail.com</a></h2>
+          <h2><a style={aStyle} href="https://github.com/GWilman" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> https://github.com/GWilman</a></h2>
+          <h2><a style={aStyle} href="https://twitter.com/GWilman" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i> https://twitter.com/GWilman</a></h2>
+          <h2><a style={aStyle} href="https://linkedin.com/in/GWilman" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square" aria-hidden="true"></i> https://linkedin.com/in/GWilman</a></h2>
         </div>
       </div>
     </div>

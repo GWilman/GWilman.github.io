@@ -11,6 +11,17 @@ import './scss/style.scss';
 
 class App extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      Home: false,
+      Projects: false,
+      About: false,
+      Contact: false
+    };
+    this.handleHover = this.handleHover.bind(this);
+  }
+
   switchVisibleComponent = (e) => {
     if (typeof e !== 'string') e.preventDefault();
     const element = document.getElementById( (typeof e === 'string') ? e : e.target.value );
@@ -23,15 +34,30 @@ class App extends React.Component {
 
   }
 
+  handleHover({ target: { value }}) {
+    this.setState({
+      [value]: !this.state[value]
+    });
+  }
+
   render() {
     return (
       <div>
-        <main>
-          <Home switchVisibleComponent={this.switchVisibleComponent} />
-          <Projects />
-          <About />
-          <Contact />
-        </main>
+        { this.state &&
+          <main>
+            <Home
+              switchVisibleComponent={this.switchVisibleComponent}
+              handleHover={this.handleHover}
+              HomeClass={this.state.Home}
+              ProjectsClass={this.state.Projects}
+              AboutClass={this.state.About}
+              ContactClass={this.state.Contact}
+            />
+            <Projects />
+            <About />
+            <Contact />
+          </main>
+        }
       </div>
     );
   }

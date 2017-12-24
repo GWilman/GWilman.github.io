@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = ({ switchVisibleComponent }) => {
+const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, AboutClass, ContactClass }) => {
 
   const divStyle = {
     height: '100vh',
@@ -69,13 +69,54 @@ const Home = ({ switchVisibleComponent }) => {
     color: '#FFF'
   };
 
+  const btnClass1 = HomeClass ? 'animated tada infinite' : '';
+  const btnClass2 = ProjectsClass ? 'animated tada infinite' : '';
+  const btnClass3 = AboutClass ? 'animated tada infinite' : '';
+  const btnClass4 = ContactClass ? 'animated tada infinite' : '';
+
   return (
     <div style={divStyle} id="Home">
       <div style={navStyle}>
-        <button style={btnStyle} onClick={switchVisibleComponent} value="Home">Home</button>
-        <button style={btnStyle} onClick={switchVisibleComponent} value="Projects">Work</button>
-        <button style={btnStyle} onClick={switchVisibleComponent} value="About">About Me</button>
-        <button style={btnStyle} onClick={switchVisibleComponent} value="Contact">Contact</button>
+        <button
+          className={btnClass1}
+          style={btnStyle}
+          onClick={switchVisibleComponent}
+          value="Home"
+          onMouseEnter={(value) => handleHover(value)}
+          onMouseLeave={(value) => handleHover(value)}
+        >
+          Home
+        </button>
+        <button
+          className={btnClass2}
+          style={btnStyle}
+          onClick={switchVisibleComponent}
+          value="Projects"
+          onMouseEnter={(value) => handleHover(value)}
+          onMouseLeave={(value) => handleHover(value)}
+        >
+          Work
+        </button>
+        <button
+          className={btnClass3}
+          style={btnStyle}
+          onClick={switchVisibleComponent}
+          value="About"
+          onMouseEnter={(value) => handleHover(value)}
+          onMouseLeave={(value) => handleHover(value)}
+        >
+          About Me
+        </button>
+        <button
+          className={btnClass4}
+          style={btnStyle}
+          onClick={switchVisibleComponent}
+          value="Contact"
+          onMouseEnter={(value) => handleHover(value)}
+          onMouseLeave={(value) => handleHover(value)}
+        >
+          Contact
+        </button>
       </div>
       <div style={container}>
         <div style={contentContainer} className="animated fadeInUp">
