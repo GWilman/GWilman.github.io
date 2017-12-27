@@ -90,9 +90,9 @@ const About = () => {
 
   return (
     <div style={divStyle} id="About">
-      <div style={container}>
-        <div style={contentContainer}>
-          <div style={blurbContainer}>
+      <div style={container} className="mobileContainer">
+        <div style={contentContainer} className="contentContainer">
+          <div style={blurbContainer} className="blurbContainer">
             <div style={text}>
               <h2 style={h2Style}>About Me</h2>
               <p style={pStyle}>As a former marketing communications executive, I bring with me a broad skill set and an understanding of different perspectives when it comes to tech, having often been involved in development projects from the other side. Since I first began experimenting with code, I was convinced that this was what I wanted to do.</p>
@@ -101,10 +101,10 @@ const About = () => {
               <p style={pStyle}>American football also piques my interest in a big way. My six-year old fantasy football league with friends takes over my life for the last 16 weeks of the year, but I’m still yet to win a title.</p>
             </div>
           </div>
-          <div style={skillsContainer}>
-            <div style={skills}>
-              <h2 style={skillsH2Style}>I know</h2>
-              <ul style={ulStyle}>
+          <div style={skillsContainer} className="skillsContainer">
+            <div style={skills} className="skillsList">
+              <h2 style={skillsH2Style} className="listTitle">I know</h2>
+              <ul style={ulStyle} className="list">
                 <li>Javascript (ES6)</li>
                 <li>React.js</li>
                 <li>Node.js</li>
