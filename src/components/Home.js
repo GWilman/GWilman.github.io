@@ -76,7 +76,7 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
 
   return (
     <div style={divStyle} id="Home">
-      <div style={navStyle}>
+      <div style={navStyle} className="navContainer">
         <button
           className={btnClass1}
           style={btnStyle}
@@ -118,11 +118,11 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
           Contact
         </button>
       </div>
-      <div style={container}>
+      <div style={container} className="mobileContainer">
         <div style={contentContainer} className="animated fadeInUp">
-          <h1 style={h1Style}>George Wilman</h1>
+          <h1 style={h1Style} className="homeTitle">George Wilman</h1>
           <h2 style={h2Style}>Web Developer</h2>
-          <p style={pStyle}>Hi! I&apos;m George and I&apos;m a full-stack web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
+          <p style={pStyle} className="homeP">Hi! I&apos;m George and I&apos;m a full-stack web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
         </div>
       </div>
     </div>

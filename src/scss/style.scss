@@ -5,3 +5,22 @@ body {
 button:focus {
   outline: 0;
 }
+
+@media only screen and (max-device-width: 500px) {
+  .navContainer {
+    display: none;
+  }
+  #Home {
+    box-sizing: default;
+    padding: default;
+    .mobileContainer {
+      width: 100% !important;
+      .homeTitle {
+        margin-bottom: 10px;
+      }
+      .homeP {
+        line-height: 1.2em !important;
+      }
+    }
+  }
+}
