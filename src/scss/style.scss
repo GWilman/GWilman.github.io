@@ -12,7 +12,7 @@ button:focus {
 
 // Mobile Responsiveness Start
 
-@media only screen and (max-device-width: 770px) {
+@media only screen and (max-width: 770px) {
   .navContainer {
     display: none;
   }
