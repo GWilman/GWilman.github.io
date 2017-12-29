@@ -74,9 +74,11 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
   const btnClass3 = AboutClass ? 'animated tada infinite' : '';
   const btnClass4 = ContactClass ? 'animated tada infinite' : '';
 
+  const navContainer = 'navContainer';
+
   return (
     <div style={divStyle} id="Home">
-      <div style={navStyle} id="navContainer">
+      <div style={navStyle} className={navContainer}>
         <button
           className={btnClass1}
           style={btnStyle}
