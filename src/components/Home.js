@@ -74,11 +74,9 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
   const btnClass3 = AboutClass ? 'animated tada infinite' : '';
   const btnClass4 = ContactClass ? 'animated tada infinite' : '';
 
-  const navContainer = 'navContainer';
-
   return (
     <div style={divStyle} id="Home">
-      <div style={navStyle} className={navContainer}>
+      <div style={navStyle}>
         <button
           className={btnClass1}
           style={btnStyle}
@@ -120,11 +118,11 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
           Contact
         </button>
       </div>
-      <div style={container} className="mobileContainer">
+      <div style={container}>
         <div style={contentContainer} className="animated fadeInUp">
-          <h1 style={h1Style} className="homeTitle">George Wilman</h1>
+          <h1 style={h1Style}>George Wilman</h1>
           <h2 style={h2Style}>Web Developer</h2>
-          <p style={pStyle} className="homeP">Hi! I&apos;m George and I&apos;m a full-stack web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
+          <p style={pStyle}>Hi! I&apos;m George and I&apos;m a full-stack web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
         </div>
       </div>
     </div>

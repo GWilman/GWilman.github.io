@@ -13,18 +13,18 @@ button:focus {
 // Mobile Responsiveness Start
 
 @media only screen and (max-width: 770px) {
-  .navContainer {
-    display: none;
-  }
   #Home {
-    .mobileContainer {
+    div:first-child {
+      display: none;
+    }
+    div:nth-child(2) {
       width: 100% !important;
-      .homeTitle {
-        margin-bottom: 10px;
-      }
-      .homeP {
-        line-height: 1.2em !important;
-      }
+    }
+    div:nth-child(2) h1 {
+      margin-bottom: 10px;
+    }
+    div:nth-child(2) p {
+      line-height: 1.2em !important;
     }
   }
   #Projects {
