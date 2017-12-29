@@ -12,11 +12,16 @@ button:focus {
 
 // Mobile Responsiveness Start
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1200px) {
   #Home {
     div:first-child {
       display: none;
     }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #Home {
     div:nth-child(2) {
       width: 100% !important;
     }
