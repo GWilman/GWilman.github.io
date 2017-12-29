@@ -5,6 +5,7 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
   const divStyle = {
     height: '100vh',
     background: '#0C1324',
+    backgroundImage: 'url(https://www.transparenttextures.com/patterns/asfalt-light.png)',
     boxSizing: 'border-box',
     padding: '10%'
   };
