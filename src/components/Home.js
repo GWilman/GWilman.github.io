@@ -76,7 +76,7 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
 
   return (
     <div style={divStyle} id="Home">
-      <div style={navStyle} class="navContainer">
+      <div style={navStyle} id="navContainer">
         <button
           className={btnClass1}
           style={btnStyle}
