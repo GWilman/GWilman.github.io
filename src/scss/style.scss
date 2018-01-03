@@ -10,6 +10,12 @@ button:focus {
   display: none;
 }
 
+@media only screen and (max-height: 724px) {
+  #Projects {
+    height: 724px !important;
+  }
+}
+
 // Mobile Responsiveness Start
 
 @media only screen and (max-width: 1200px) {
