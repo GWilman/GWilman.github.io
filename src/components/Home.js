@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, AboutClass, ContactClass }) => {
+const Home = ({ switchVisibleComponent, handleHover }) => {
 
   const divStyle = {
     height: '100vh',
@@ -70,16 +70,11 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
     color: '#FFF'
   };
 
-  const btnClass1 = HomeClass ? 'animated tada infinite' : '';
-  const btnClass2 = ProjectsClass ? 'animated tada infinite' : '';
-  const btnClass3 = AboutClass ? 'animated tada infinite' : '';
-  const btnClass4 = ContactClass ? 'animated tada infinite' : '';
-
   return (
     <div style={divStyle} id="Home">
       <div style={navStyle}>
         <button
-          className={btnClass1}
+          className="hvr-underline-from-left"
           style={btnStyle}
           onClick={switchVisibleComponent}
           value="Home"
@@ -89,7 +84,7 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
           Home
         </button>
         <button
-          className={btnClass2}
+          className="hvr-underline-from-left"
           style={btnStyle}
           onClick={switchVisibleComponent}
           value="Projects"
@@ -99,7 +94,7 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
           Work
         </button>
         <button
-          className={btnClass3}
+          className="hvr-underline-from-left"
           style={btnStyle}
           onClick={switchVisibleComponent}
           value="About"
@@ -109,7 +104,7 @@ const Home = ({ switchVisibleComponent, handleHover, HomeClass, ProjectsClass, A
           About Me
         </button>
         <button
-          className={btnClass4}
+          className="hvr-underline-from-left"
           style={btnStyle}
           onClick={switchVisibleComponent}
           value="Contact"

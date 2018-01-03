@@ -48,10 +48,6 @@ class App extends React.Component {
             <Home
               switchVisibleComponent={this.switchVisibleComponent}
               handleHover={this.handleHover}
-              HomeClass={this.state.Home}
-              ProjectsClass={this.state.Projects}
-              AboutClass={this.state.About}
-              ContactClass={this.state.Contact}
             />
             <Projects />
             <About />
