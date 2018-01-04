@@ -103,7 +103,7 @@ const About = () => {
               <p style={pStyle}>As a former marketing communications executive, I bring with me a broad skill set and an understanding of different perspectives when it comes to tech, having often been involved in development projects from the other side. Since I first began experimenting with code, I was convinced that this was what I wanted to do.</p>
               <p style={pStyle}>I&apos;ve recently completed the Web Development Immersive course at General Assembly in London, which was a great experience and I&apos;m feeling confident with my new skills. </p>
               <p style={pStyle}>Aside from coding, I love electronic music and over the last few years I have become an avid bedroom DJ, occasionally playing at a party for family or friends. I’d love to start producing my own tracks once I’ve got the money for some new gear.</p>
-              <p style={pStyle}>American football also piques my interest in a big way. My six-year old fantasy football league with friends takes over my life for the last 16 weeks of the year, but I’m still yet to win a title.</p>
+              <p style={pStyle}>Stints in Europe living in Rotterdam and Paris were great fun and a wonderful opportunity to learn new languages. I can speak both French and Dutch to intermediate levels and I’m always eager to practice when I get the chance.</p>
             </div>
           </div>
           <div style={skillsContainer} className="skillsContainer">
