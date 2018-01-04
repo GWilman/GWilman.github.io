@@ -122,7 +122,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
         <div style={contentContainer} className="animated fadeInUp">
           <h1 style={h1Style}>George Wilman</h1>
           <h2 style={h2Style}>Web Developer</h2>
-          <p style={pStyle}>Hi! I&apos;m George and I&apos;m a full-stack web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
+          <p style={pStyle}>Hi! I&apos;m George and I&apos;m a web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
         </div>
       </div>
     </div>
