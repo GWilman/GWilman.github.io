@@ -6,6 +6,11 @@ button:focus {
   outline: 0;
 }
 
+button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
+  box-sizing: border-box;
+  text-shadow: 0 0 4px #000;
+}
+
 #mobileProjects {
   display: none;
 }
@@ -27,7 +32,7 @@ button:focus {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #fff;
+  background: #000;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -51,6 +56,22 @@ button:focus {
     .mobileContainer {
       padding-top: 5%;
       box-sizing: border-box;
+    }
+  }
+}
+
+@media only screen and (min-height: 955px) {
+  #Projects {
+    .mobileContainer {
+      padding-top: 10%;
+    }
+  }
+}
+
+@media only screen and (min-height: 1100px) {
+  #Projects {
+    .mobileContainer {
+      padding-top: 15%;
     }
   }
 }

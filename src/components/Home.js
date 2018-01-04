@@ -4,8 +4,8 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
 
   const divStyle = {
     height: '100vh',
-    background: '#0C1324',
-    backgroundImage: 'url(https://www.transparenttextures.com/patterns/asfalt-light.png)',
+    background: '#dbffee',
+    backgroundImage: 'url(https://www.transparenttextures.com/patterns/asfalt-dark.png)',
     boxSizing: 'border-box',
     padding: '10%'
   };
@@ -24,10 +24,10 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
     height: '23%',
     width: '100%',
     margin: '0 0 5% 0',
-    background: '#0C1324',
+    background: '#dbffee',
     borderRadius: '10px',
     fontSize: '1.3em',
-    color: '#fff',
+    color: '#000',
     fontWeight: '600',
     textTransform: 'uppercase',
     cursor: 'pointer'
@@ -52,14 +52,18 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
 
   const h1Style = {
     fontSize: '3.5em',
-    fontFamily: 'Bungee Inline, cursive',
-    color: '#FFF'
+    fontFamily: 'Lato, sans serif',
+    fontWeight: '900',
+    textTransform: 'uppercase',
+    color: '#000'
   };
 
   const h2Style = {
     fontSize: '2.5em',
-    fontFamily: 'Bungee Inline, cursive',
-    color: '#FFF'
+    fontFamily: 'Lato, sans serif',
+    fontWeight: '700',
+    textTransform: 'uppercase',
+    color: '#000'
   };
 
   const pStyle = {
@@ -67,7 +71,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
     lineHeight: '1.5em',
     fontSize: '1.5em',
     fontFamily: 'Roboto, sans-serif',
-    color: '#FFF'
+    color: '#000'
   };
 
   return (

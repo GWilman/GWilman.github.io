@@ -4,7 +4,7 @@ const Contact = () => {
 
   const divStyle = {
     height: '100vh',
-    background: '#1A3370',
+    background: '#f4fffa',
     boxSizing: 'border-box',
     padding: '10%'
   };
@@ -29,15 +29,17 @@ const Contact = () => {
   const h1Style = {
     paddingBottom: '5%',
     fontSize: '3.5em',
-    fontFamily: 'Bungee Inline, cursive',
-    color: '#FFF'
+    fontFamily: 'Lato, sans serif',
+    fontWeight: '900',
+    textTransform: 'uppercase',
+    color: '#000'
   };
 
   const aStyle = {
     lineHeight: '1.5em',
     fontSize: '2em',
     fontFamily: 'Roboto, sans-serif',
-    color: '#FFF',
+    color: '#000',
     textDecoration: 'none'
   };
 

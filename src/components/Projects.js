@@ -5,7 +5,7 @@ class Projects extends React.Component {
 
   divStyle = {
     height: '100vh',
-    background: '#1A3370',
+    background: '#f4fffa',
     boxSizing: 'border-box',
     padding: '4% 10%'
   }
@@ -14,7 +14,7 @@ class Projects extends React.Component {
     width: '800px',
     height: '100%',
     margin: '0 auto',
-    background: '#F8FFFF',
+    background: '#f4fffa',
     borderRadius: '10px',
     textAlign: 'center'
   }

@@ -4,8 +4,8 @@ const About = () => {
 
   const divStyle = {
     height: '100vh',
-    background: '#0C1324',
-    backgroundImage: 'url(https://www.transparenttextures.com/patterns/asfalt-light.png)',
+    background: '#dbffee',
+    backgroundImage: 'url(https://www.transparenttextures.com/patterns/asfalt-dark.png)',
     boxSizing: 'border-box',
     padding: '5%'
   };
@@ -57,17 +57,21 @@ const About = () => {
   const h2Style = {
     marginBottom: '2%',
     fontSize: '2.5em',
-    fontFamily: 'Bungee Inline, cursive',
+    fontFamily: 'Lato, sans serif',
+    fontWeight: '900',
+    textTransform: 'uppercase',
     textAlign: 'left',
-    color: '#FFF'
+    color: '#000'
   };
 
   const skillsH2Style = {
     marginBottom: '2%',
     fontSize: '2.5em',
-    fontFamily: 'Bungee Inline, cursive',
+    fontFamily: 'Lato, sans serif',
+    fontWeight: '900',
+    textTransform: 'uppercase',
     textAlign: 'center',
-    color: '#FFF'
+    color: '#000'
   };
 
   const pStyle = {
@@ -76,7 +80,7 @@ const About = () => {
     fontSize: '1.1em',
     fontFamily: 'Roboto, sans-serif',
     textAlign: 'left',
-    color: '#FFF'
+    color: '#000'
   };
 
   const ulStyle = {
@@ -86,7 +90,7 @@ const About = () => {
     fontSize: '1.1em',
     fontFamily: 'Roboto, sans-serif',
     textAlign: 'center',
-    color: '#FFF'
+    color: '#000'
   };
 
   return (
