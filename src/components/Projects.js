@@ -6,6 +6,7 @@ class Projects extends React.Component {
   divStyle = {
     height: '100vh',
     background: '#fff',
+    backgroundImage: 'url(https://www.transparenttextures.com/patterns/fancy-deboss.png)',
     boxSizing: 'border-box',
     padding: '4% 10%'
   }
@@ -15,6 +16,7 @@ class Projects extends React.Component {
     height: '100%',
     margin: '0 auto',
     background: '#fff',
+    backgroundImage: 'url(https://www.transparenttextures.com/patterns/fancy-deboss.png)',
     borderRadius: '10px',
     textAlign: 'center',
     display: 'flex',
@@ -29,7 +31,7 @@ class Projects extends React.Component {
   h1Style = {
     fontSize: '2em',
     lineHeight: '2em',
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: 'Raleway, Lato, sans-serif',
     color: '#0C1324'
   }
 
@@ -73,7 +75,7 @@ class Projects extends React.Component {
               <h1 style={this.h1Style}>GA Feedback</h1>
               <img style={this.imgStyle} src="https://imgur.com/q4G7FCw.png" />
               <p style={this.pStyle}>AngularJS, Node.js, Express.js, MongoDB, SCSS</p>
-              <p style={this.pStyle}>Our team produced a feedback system for lessons at General Assembly that allowed students to rate lessons, read/download lesson notes and converse on the group chat. It is a MEAN stack SPA with JWT/bcrypt authentication and features angular-chart.js and moment.js.</p>
+              <p style={this.pStyle}>Our team produced a feedback system for lessons at General Assembly that allowed students to rate lessons, read/download lesson notes and converse on the group chat. It is a MEAN stack SPA with JWT authentication and features angular-chart.js and moment.js.</p>
               <p style={this.pStyle}><i className="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/GWilman/WDI_GROUP_PROJECT" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
             </div>
             <hr />
@@ -95,6 +97,12 @@ class Projects extends React.Component {
           </div>
           <div style={this.sliderStyle} id="Slider">
             <Slider {...settings}>
+              {/* <div>
+                <h1 style={this.h1Style}>Work</h1>
+                <p style={this.pStyle}>Here you can view my work, though I recommend you visit the linked GitHub pages for a more thorough presentation.</p>
+                <p style={this.pStyle}>I am currently working as a teaching assistant on General Assembly&apos;s Web Development Immersive course. When I&apos;m not teaching, writing labs and homeworks or helping students with their code, I&apos;m working on my side project - which is currently my first React Native app.</p>
+                <p style={this.pStyle}>While you&apos;re here, this website is made with React and uses flexbox, a slick carousel and features some artwork borrowed from a friend.</p>
+              </div> */}
               <div>
                 <h1 style={this.h1Style}>The Vince Grid</h1>
                 <img style={this.imgStyle} src="https://imgur.com/k78hEKk.jpg" />

@@ -5,6 +5,7 @@ const Contact = () => {
   const divStyle = {
     height: '100vh',
     background: '#fff',
+    backgroundImage: 'url(https://www.transparenttextures.com/patterns/fancy-deboss.png)',
     boxSizing: 'border-box',
     padding: '10%',
     display: 'flex',
@@ -27,7 +28,7 @@ const Contact = () => {
   const h1Style = {
     paddingBottom: '5%',
     fontSize: '3.5em',
-    fontFamily: 'Lato, sans serif',
+    fontFamily: 'Raleway, Lato, sans serif',
     fontWeight: '900',
     textTransform: 'uppercase',
     color: '#000'

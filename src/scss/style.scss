@@ -8,7 +8,8 @@ button:focus {
 
 button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
   box-sizing: border-box;
-  text-shadow: 0 0 4px #000;
+  font-size: 30px;
+  color: #000;
 }
 
 #mobileProjects {
@@ -55,7 +56,7 @@ button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
 
 @media only screen and (max-width: 770px) {
   #Home {
-    background-size: 1130px;
+    background-size: 1250px;
     div:nth-child(2) {
       width: 100% !important;
     }
@@ -86,6 +87,7 @@ button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
     }
   }
   #About {
+    background-size: 1150px;
     height: 100% !important;
     .mobileContainer {
       width: 100% !important;

@@ -37,10 +37,6 @@ const About = () => {
     paddingRight: '2%'
   };
 
-  const text = {
-
-  };
-
   const skillsContainer = {
     boxSizing: 'border-box',
     height: '100%',
@@ -48,14 +44,10 @@ const About = () => {
     float: 'right'
   };
 
-  const skills = {
-
-  };
-
   const h2Style = {
     marginBottom: '2%',
     fontSize: '2.5em',
-    fontFamily: 'Lato, sans serif',
+    fontFamily: 'Raleway, Lato, sans serif',
     fontWeight: '900',
     textTransform: 'uppercase',
     textAlign: 'left',
@@ -65,7 +57,7 @@ const About = () => {
   const skillsH2Style = {
     marginBottom: '2%',
     fontSize: '2.5em',
-    fontFamily: 'Lato, sans serif',
+    fontFamily: 'Raleway, Lato, sans serif',
     fontWeight: '900',
     textTransform: 'uppercase',
     textAlign: 'center',
@@ -96,7 +88,7 @@ const About = () => {
       <div style={container} className="mobileContainer">
         <div style={contentContainer} className="contentContainer">
           <div style={blurbContainer} className="blurbContainer">
-            <div style={text}>
+            <div>
               <h2 style={h2Style}>About Me</h2>
               <p style={pStyle}>As a former marketing communications executive, I bring with me a broad skill set and an understanding of different perspectives when it comes to tech, having often been involved in development projects from the other side. Since I first began experimenting with code, I was convinced that this was what I wanted to do.</p>
               <p style={pStyle}>I&apos;ve recently completed the Web Development Immersive course at General Assembly in London, which was a great experience and I&apos;m feeling confident with my new skills. </p>
@@ -105,7 +97,7 @@ const About = () => {
             </div>
           </div>
           <div style={skillsContainer} className="skillsContainer">
-            <div style={skills} className="skillsList">
+            <div className="skillsList">
               <h2 style={skillsH2Style} className="listTitle">I know</h2>
               <ul style={ulStyle} className="list">
                 <li>Javascript (ES6)</li>

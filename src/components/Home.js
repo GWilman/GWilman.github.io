@@ -53,7 +53,6 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
     width: '700px',
     height: '100%',
     margin: '0 auto',
-    padding: '5% 0',
     textAlign: 'center',
     display: 'flex',
     justifyContent: 'center',
@@ -63,20 +62,21 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
   const contentContainer = {
     background: '#fff',
     boxShadow: '0 0 2px #000',
-    padding: '3rem'
+    padding: '3rem 2rem'
   };
 
   const h1Style = {
-    fontSize: '3.5em',
-    fontFamily: 'Lato, sans serif',
+    fontSize: '3.7em',
+    fontFamily: 'Raleway, Lato, sans serif',
     fontWeight: '900',
     textTransform: 'uppercase',
-    color: '#000'
+    color: '#000',
+    marginBottom: '1.5rem'
   };
 
   const h2Style = {
-    fontSize: '2.5em',
-    fontFamily: 'Lato, sans serif',
+    fontSize: '2rem',
+    fontFamily: 'Raleway, Lato, sans serif',
     fontWeight: '700',
     textTransform: 'uppercase',
     color: '#000'
@@ -84,8 +84,8 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
 
   const pStyle = {
     marginTop: '10%',
-    lineHeight: '1.5em',
-    fontSize: '1.5em',
+    lineHeight: '1.8rem',
+    fontSize: '1.5rem',
     fontFamily: 'Roboto, sans-serif',
     color: '#000'
   };
@@ -142,7 +142,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
           <div style={contentContainer} className="animated fadeInUp">
             <h1 style={h1Style}>George Wilman</h1>
             <h2 style={h2Style}>Web Developer</h2>
-            <p style={pStyle}>Hi! I&apos;m George and I&apos;m a web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
+            <p style={pStyle}>I&apos;m George and I&apos;m a web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
           </div>
         </div>
       </div>
