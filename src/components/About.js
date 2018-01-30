@@ -4,27 +4,29 @@ const About = () => {
 
   const divStyle = {
     height: '100vh',
-    background: '#dbffee',
-    backgroundImage: 'url(https://www.transparenttextures.com/patterns/asfalt-dark.png)',
+    backgroundImage: 'url(https://static.wixstatic.com/media/e152d0_40f67b11e43047f1ad84719ef15d2141.png/v1/fill/w_1795,h_962,al_c,usm_0.66_1.00_0.01/e152d0_40f67b11e43047f1ad84719ef15d2141.png)',
     boxSizing: 'border-box',
-    padding: '5%'
+    padding: '5%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
   };
 
   const container = {
     boxSizing: 'border-box',
     width: '800px',
     height: '100%',
-    margin: '0 auto',
-    padding: '5% 0',
-    textAlign: 'center',
-    display: 'table'
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
   };
 
   const contentContainer = {
     boxSizing: 'border-box',
-    height: '100%',
-    display: 'table-cell',
-    verticalAlign: 'middle'
+    background: '#fff',
+    boxShadow: '0 0 2px #000',
+    padding: '2rem',
+    overflow: 'auto'
   };
 
   const blurbContainer = {
@@ -32,26 +34,22 @@ const About = () => {
     height: '100%',
     width: '75%',
     float: 'left',
-    paddingRight: '2%',
-    display: 'table'
+    paddingRight: '2%'
   };
 
   const text = {
-    display: 'table-cell',
-    verticalAlign: 'middle'
+
   };
 
   const skillsContainer = {
     boxSizing: 'border-box',
     height: '100%',
     width: '25%',
-    float: 'right',
-    display: 'table'
+    float: 'right'
   };
 
   const skills = {
-    display: 'table-cell',
-    verticalAlign: 'middle'
+
   };
 
   const h2Style = {

@@ -5,7 +5,7 @@ class Projects extends React.Component {
 
   divStyle = {
     height: '100vh',
-    background: '#f4fffa',
+    background: '#fff',
     boxSizing: 'border-box',
     padding: '4% 10%'
   }
@@ -14,9 +14,16 @@ class Projects extends React.Component {
     width: '800px',
     height: '100%',
     margin: '0 auto',
-    background: '#f4fffa',
+    background: '#fff',
     borderRadius: '10px',
-    textAlign: 'center'
+    textAlign: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
+
+  sliderStyle = {
+    width: '100%'
   }
 
   h1Style = {
@@ -86,7 +93,7 @@ class Projects extends React.Component {
               <p style={this.pStyle}><i className="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/GWilman/WDI_PROJECT_1" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
             </div>
           </div>
-          <div id="Slider">
+          <div style={this.sliderStyle} id="Slider">
             <Slider {...settings}>
               <div>
                 <h1 style={this.h1Style}>The Vince Grid</h1>

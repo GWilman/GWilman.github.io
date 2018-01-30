@@ -32,7 +32,7 @@ button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #000;
+  background: #fff;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -41,53 +41,21 @@ button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before {
+.hvr-underline-from-left:hover:before {
   right: 0;
-}
-
-@media only screen and (max-height: 724px) {
-  #Projects {
-    height: 724px !important;
-  }
-}
-
-@media only screen and (min-height: 825px) {
-  #Projects {
-    .mobileContainer {
-      padding-top: 5%;
-      box-sizing: border-box;
-    }
-  }
-}
-
-@media only screen and (min-height: 955px) {
-  #Projects {
-    .mobileContainer {
-      padding-top: 10%;
-    }
-  }
-}
-
-@media only screen and (min-height: 1100px) {
-  #Projects {
-    .mobileContainer {
-      padding-top: 15%;
-    }
-  }
 }
 
 // Mobile Responsiveness Start
 
 @media only screen and (max-width: 1200px) {
-  #Home {
-    div:first-child {
-      display: none;
-    }
+  #Nav, #Artwork {
+    display: none !important;
   }
 }
 
 @media only screen and (max-width: 770px) {
   #Home {
+    background-size: 1130px;
     div:nth-child(2) {
       width: 100% !important;
     }

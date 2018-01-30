@@ -4,26 +4,24 @@ const Contact = () => {
 
   const divStyle = {
     height: '100vh',
-    background: '#f4fffa',
+    background: '#fff',
     boxSizing: 'border-box',
-    padding: '10%'
+    padding: '10%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
   };
 
   const container = {
     boxSizing: 'border-box',
-    width: '700px',
-    height: '100%',
     margin: '0 auto',
     padding: '5% 0',
-    textAlign: 'center',
-    display: 'table'
+    textAlign: 'center'
   };
 
   const contentContainer = {
     boxSizing: 'border-box',
-    height: '100%',
-    display: 'table-cell',
-    verticalAlign: 'middle'
+    height: '100%'
   };
 
   const h1Style = {
