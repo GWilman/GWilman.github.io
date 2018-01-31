@@ -90,8 +90,8 @@ const About = () => {
           <div style={blurbContainer} className="blurbContainer">
             <div>
               <h2 style={h2Style}>About Me</h2>
-              <p style={pStyle}>A former marketing executive, I have known that development was what I wanted to do ever since I first began experimenting with code in my former career.</p>
-              <p style={pStyle}>I&apos;ve recently completed the Web Development Immersive course at General Assembly in London, and I currently work as a teaching assistant on the same course where I teach lessons, write labs and homeworks and helping the students with their code.</p>
+              <p style={pStyle}>A former marketing executive, I have known that developing websites and applications was what I wanted to do ever since I first began experimenting with code in my former career.</p>
+              <p style={pStyle}>I&apos;ve recently completed the Web Development Immersive course at General Assembly in London, and I currently work as a teaching assistant on the same course where I teach lessons, write labs and homeworks and help the students with their code.</p>
               <p style={pStyle}>Aside from coding, I love electronic music and over the last few years I have become an avid bedroom DJ, occasionally playing at a party for family or friends. I’d love to start producing my own tracks once I’ve got the money for some new gear.</p>
               <p style={pStyle}>Stints in Europe living in Rotterdam and Paris were great fun and a wonderful opportunity to learn new languages. I can speak both French and Dutch to intermediate levels and I’m always eager to practice when I get the chance.</p>
             </div>
