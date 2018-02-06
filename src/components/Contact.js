@@ -31,14 +31,14 @@ const Contact = () => {
     fontFamily: 'Raleway, Lato, sans serif',
     fontWeight: '900',
     textTransform: 'uppercase',
-    color: '#000'
+    color: '#141414'
   };
 
   const aStyle = {
     lineHeight: '1.5em',
     fontSize: '2em',
     fontFamily: 'Roboto, sans-serif',
-    color: '#000',
+    color: '#141414',
     textDecoration: 'none'
   };
 

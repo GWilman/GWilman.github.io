@@ -54,9 +54,20 @@ button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1024px) {
+  #Home, #About {
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 767px) {
   #Home {
-    background-size: 1250px;
+    background-size: 1365px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #Home {
     div:nth-child(2) {
       width: 100% !important;
     }
@@ -78,8 +89,14 @@ button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
     }
     #mobileProjects {
       display: block;
+      div:first-child {
+        padding-bottom: 5rem;
+      }
       p {
-        padding: 5px 10px;
+        padding: 5px 0px;
+      }
+      p.projDescription {
+        display: none;
       }
       hr {
         margin-top: 24px;
@@ -101,12 +118,17 @@ button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
           display: block !important;
           text-align: left !important;
           p {
-            margin-bottom: 5%;
+            padding: .7rem 0;
+            text-align: justify !important;
           }
           .skillsList {
             display: block !important;
             vertical-align: default !important;
+            .listTitle {
+              padding-top: 1rem;
+            }
             .listTitle, .list {
+              padding-bottom: .7rem;
               text-align: left !important;
               line-height: 1.2em !important;
               li {
@@ -129,6 +151,18 @@ button.slick-arrow.slick-prev:before, button.slick-arrow.slick-next:before {
         font-size: 1.1em !important;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  div.animated.fadeInUp {
+    padding: 3rem 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 376px) and (min-height: 800px) {
+  #Home {
+    background-size: 1505px;
   }
 }
 

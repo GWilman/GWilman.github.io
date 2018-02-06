@@ -6,7 +6,8 @@ const About = () => {
     height: '100vh',
     backgroundImage: 'url(https://static.wixstatic.com/media/e152d0_40f67b11e43047f1ad84719ef15d2141.png/v1/fill/w_1795,h_962,al_c,usm_0.66_1.00_0.01/e152d0_40f67b11e43047f1ad84719ef15d2141.png)',
     boxSizing: 'border-box',
-    padding: '5%',
+    backgroundSize: 'cover',
+    padding: '5rem 1rem',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center'
@@ -51,7 +52,7 @@ const About = () => {
     fontWeight: '900',
     textTransform: 'uppercase',
     textAlign: 'left',
-    color: '#000'
+    color: '#141414'
   };
 
   const skillsH2Style = {
@@ -61,7 +62,7 @@ const About = () => {
     fontWeight: '900',
     textTransform: 'uppercase',
     textAlign: 'center',
-    color: '#000'
+    color: '#141414'
   };
 
   const pStyle = {
@@ -70,7 +71,7 @@ const About = () => {
     fontSize: '1.1em',
     fontFamily: 'Roboto, sans-serif',
     textAlign: 'left',
-    color: '#000'
+    color: '#141414'
   };
 
   const ulStyle = {
@@ -80,7 +81,7 @@ const About = () => {
     fontSize: '1.1em',
     fontFamily: 'Roboto, sans-serif',
     textAlign: 'center',
-    color: '#000'
+    color: '#141414'
   };
 
   return (

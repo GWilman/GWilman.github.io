@@ -5,6 +5,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
   const divStyle = {
     height: '100vh',
     backgroundImage: 'url(https://static.wixstatic.com/media/e152d0_0237487cdb1244faac624d4f83e813a9.png/v1/fill/w_1783,h_962,al_c,usm_0.66_1.00_0.01/e152d0_0237487cdb1244faac624d4f83e813a9.png)',
+    backgroundSize: 'cover',
     boxSizing: 'border-box',
     padding: '10%'
   };
@@ -14,7 +15,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
     height: '100%',
     width: '130px',
     borderRight: '8px solid #fff',
-    background: '#000',
+    background: '#141414',
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'column'
@@ -37,7 +38,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
     top: '0',
     right: '0',
     padding: '1rem',
-    background: '#000',
+    background: '#141414',
     color: '#fff',
     fontFamily: 'Lato, sans serif',
     fontSize: '.7rem'
@@ -70,7 +71,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
     fontFamily: 'Raleway, Lato, sans serif',
     fontWeight: '900',
     textTransform: 'uppercase',
-    color: '#000',
+    color: '#141414',
     marginBottom: '1.5rem'
   };
 
@@ -79,15 +80,15 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
     fontFamily: 'Raleway, Lato, sans serif',
     fontWeight: '700',
     textTransform: 'uppercase',
-    color: '#000'
+    color: '#141414'
   };
 
   const pStyle = {
     marginTop: '10%',
     lineHeight: '1.8rem',
-    fontSize: '1.5rem',
+    fontSize: '1.4rem',
     fontFamily: 'Roboto, sans-serif',
-    color: '#000'
+    color: '#141414'
   };
 
   return (
@@ -142,7 +143,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
           <div style={contentContainer} className="animated fadeInUp">
             <h1 style={h1Style}>George Wilman</h1>
             <h2 style={h2Style}>Web Developer</h2>
-            <p style={pStyle}>I&apos;m George and I&apos;m a web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
+            <p style={pStyle}>I&apos;m a web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>
           </div>
         </div>
       </div>
