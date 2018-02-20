@@ -140,7 +140,7 @@ const Home = ({ switchVisibleComponent, handleHover }) => {
           Artwork by <a style={linkStyle} href="https://www.charlesharropgriffiths.com" target="_blank" rel="noopener noreferrer">Charles Harrop-Griffiths</a>
         </div>
         <div style={container}>
-          <div style={contentContainer} className="animated fadeInUp">
+          <div style={contentContainer} className="animated fadeIn">
             <h1 style={h1Style}>George Wilman</h1>
             <h2 style={h2Style}>Web Developer</h2>
             <p style={pStyle}>I&apos;m a web developer based in London. Check out my work, find out more about me or get in touch. I&apos;d love to hear from you.</p>

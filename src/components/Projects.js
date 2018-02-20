@@ -106,6 +106,7 @@ class Projects extends React.Component {
               <p style={this.pStyle}><i className="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/GWilman/WDI_PROJECT_1" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
             </div>
           </div>
+          {/* Insert covering paragraph */}
           <div style={this.sliderStyle} id="Slider">
             <Slider {...settings}>
               {/* <div>
