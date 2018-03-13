@@ -75,6 +75,14 @@ class Projects extends React.Component {
             </div>
             <hr />
             <div>
+              <h1 style={this.h1Style}>Moveli</h1>
+              <img style={this.imgStyle} src="https://i.imgur.com/ARrpP8E.png" />
+              <p style={this.pStyle}>React.js, SCSS, PHP</p>
+              <p style={this.pStyle} className="projDescription">I co-produced this freelance development project for a real estate startup based in West London. My role was purely on the front end, coding the mobile and desktop designs we were provided with using SCSS and JavaScript.</p>
+              <p style={this.pStyle}><i className="fa fa-globe" aria-hidden="true"></i> <a href="http://moveli.com/" target="_blank" rel="noopener noreferrer">View Website</a></p>
+            </div>
+            <hr />
+            <div>
               <h1 style={this.h1Style}>The Vince Grid</h1>
               <img style={this.imgStyle} src="https://imgur.com/k78hEKk.jpg" />
               <p style={this.pStyle}>React.js, Node.js, Express.js, Socket.IO, MongoDB, SCSS</p>
@@ -115,6 +123,13 @@ class Projects extends React.Component {
                 <p style={this.pStyle}>I am currently working as a teaching assistant on General Assembly&apos;s Web Development Immersive course. When I&apos;m not teaching, writing labs and homeworks or helping students with their code, I&apos;m working on my side project - which is currently my first React Native app.</p>
                 <p style={this.pStyle}>While you&apos;re here, this website is made with React and uses flexbox, a slick carousel and features some artwork borrowed from a friend.</p>
               </div> */}
+              <div>
+                <h1 style={this.h1Style}>Moveli</h1>
+                <img style={this.imgStyle} src="https://i.imgur.com/ARrpP8E.png" />
+                <p style={this.pStyle}>React.js, SCSS, PHP</p>
+                <p style={this.pStyle} className="projDescription">I co-produced this freelance development project for a real estate startup based in West London. My role was purely on the front end, coding the mobile and desktop designs we were provided with using SCSS and JavaScript.</p>
+                <p style={this.pStyle}><i className="fa fa-globe" aria-hidden="true"></i> <a href="http://moveli.com/" target="_blank" rel="noopener noreferrer">View Website</a></p>
+              </div>
               <div>
                 <h1 style={this.h1Style}>The Vince Grid</h1>
                 <img style={this.imgStyle} src="https://imgur.com/k78hEKk.jpg" />
